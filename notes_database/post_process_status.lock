@@ -1,1 +1,5 @@
 SUCCESS
+schema_applied=notes_tags_note_tags
+verified_tables=notes,tags,note_tags
+verified_indexes=ux_tags_name_lower,ix_notes_updated_at,ix_notes_is_archived,ix_note_tags_tag_id,ix_note_tags_note_id,ix_notes_title_trgm,ix_notes_content_trgm,ix_tags_name_trgm
+extensions=pgcrypto,pg_trgm
